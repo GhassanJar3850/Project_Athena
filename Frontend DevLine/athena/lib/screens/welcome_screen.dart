@@ -29,10 +29,9 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
             left: mediaQuery.size.width / 2 - 100,
             top: 50,
             child: Hero(
-
               tag: "logo",
               child: Image.asset(
-                "assets/images/athena_logo2.png",
+                "assets/images/athena_logo3.png",
                 height: 200,
                 width: 200,
                 color: Colors.redAccent,

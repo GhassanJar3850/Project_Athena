@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 ThemeData themeData = ThemeData(
@@ -5,5 +7,5 @@ ThemeData themeData = ThemeData(
   primaryColor: Colors.lightBlueAccent,
   backgroundColor: Colors.lightBlueAccent,
   useMaterial3: true,
-  fontFamily: "Bruno"
+  fontFamily: "Motiva",
 );

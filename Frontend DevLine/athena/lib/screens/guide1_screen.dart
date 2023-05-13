@@ -40,7 +40,7 @@ class _Guide1ScreenState extends State<Guide1Screen> {
                   ),
                 ),
                 onPressed: () {
-                  Navigator.of(context).push(slideTransitionTo(Guide2Screen()));
+                  Navigator.of(context).push(FadeTransitionTo(Guide2Screen()));
                 },
                 icon: Icon(
                   Icons.arrow_forward_outlined,
@@ -50,12 +50,12 @@ class _Guide1ScreenState extends State<Guide1Screen> {
             ),
           ),
           Positioned(
-            left: mediaQuery.size.width - 150,
+            left: mediaQuery.size.width/2 - 75,
             top: 50,
             child: Hero(
               tag: "logo",
               child: Image.asset(
-                "assets/images/athena_logo2.png",
+                "assets/images/athena_logo3.png",
                 height: 150,
                 width: 150,
                 color: Colors.redAccent,

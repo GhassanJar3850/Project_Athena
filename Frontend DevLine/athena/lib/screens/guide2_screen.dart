@@ -40,7 +40,7 @@ class _Guide2ScreenState extends State<Guide2Screen> {
                   ),
                 ),
                 onPressed: () {
-                  Navigator.of(context).push(slideTransitionTo(Guide3Screen()));
+                  Navigator.of(context).push(FadeTransitionTo(Guide3Screen()));
                 },
                 icon: Icon(
                   Icons.arrow_forward_outlined,

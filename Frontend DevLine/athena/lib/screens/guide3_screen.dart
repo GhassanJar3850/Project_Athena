@@ -88,6 +88,7 @@ class _AnimatedButtonState extends State<AnimatedButton>
     controller.dispose();
     scaleController.dispose();
     convert = false;
+
   }
 
   bool convert = false;

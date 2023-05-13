@@ -13,6 +13,7 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
+  flutter_screenutil: ^5.7.0
 
 dev_dependencies:
   flutter_test:
@@ -36,3 +37,5 @@ flutter:
     - family: Motiva
       fonts:
         - asset: assets/fonts/Motiva/MotivaSansTest-Medium.otf
+        - asset: assets/fonts/Motiva/MotivaSansTest-Light.otf
+        - asset: assets/fonts/Motiva/MotivaSansTest-Regular.otf
